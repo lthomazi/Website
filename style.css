@@ -30,6 +30,7 @@ iframe {
 }
 
 a {
+  align-items: center;
   font-size: 1.5rem;
   color: white;
   padding: 0.5rem 0.5rem;
