@@ -21,6 +21,7 @@ p {
   width: 80%;
   padding-left: 5%;
   padding-right: 5%;
+  word-wrap: normal;
 }
 
 iframe {
