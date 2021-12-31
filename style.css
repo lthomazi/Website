@@ -25,10 +25,11 @@ p {
 
 iframe {
   align-self: center;
-  transform: translate(190%);
+  transform: translate(170%);
 }
 
 a {
+  font-size: 1.5rem;
   color: white;
   padding: 0.5rem 0.5rem;
   text-decoration: none;
@@ -121,39 +122,6 @@ section {
 
 .dark {
   background: #0f0f10;
-}
-
-/* Curved bg with plain CSS */
-
-.curve {
-  position: absolute;
-  height: 250px;
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-}
-
-.curve::before {
-  content: '';
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  transform: translate(85%, 60%);
-  background-color: hsl(216, 21%, 16%);
-}
-
-.curve::after {
-  content: '';
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  width: 55%;
-  height: 100%;
-  background-color: #030027;
-  transform: translate(-4%, 40%);
-  z-index: -1;
 }
 
 /* Bubble bg with plain CSS */
