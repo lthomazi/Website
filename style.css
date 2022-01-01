@@ -29,6 +29,12 @@ iframe {
   transform: translate(170%);
 }
 
+img{
+  width: 80%;
+  padding-left: 10%;
+  align-items: center;
+}
+
 a {
   align-items: center;
   font-size: 1.5rem;
@@ -42,7 +48,16 @@ a:hover{
   background-color: #0b0020;
   text-decoration: underline;
 }
-  
+
+ul{
+  font-size: 1.5rem;
+  text-align: left;
+  width: 80%;
+  padding-left: 40%;
+  padding-right: 5%;
+  word-wrap: normal;
+}
+
 body {
   padding-top: 0%;
   margin: 0;
