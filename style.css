@@ -29,11 +29,13 @@ iframe {
   transform: translate(170%);
 }
 
-img{
-  width: 80%;
-  padding-left: 10%;
+/* img{
+  width: 30%;
+  padding-left: 30%;
   align-items: center;
-}
+} */
+
+
 
 a {
   align-items: center;
@@ -123,6 +125,8 @@ section {
   min-height: 400px;
   padding-top: 1px;
 }
+
+
 
 .blue {
   background: #001220;
